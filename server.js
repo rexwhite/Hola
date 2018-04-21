@@ -16,10 +16,11 @@
 
 'use strict';
 
+const version = '1.0';
 const start = new Date();
 const port = 9000;
 const app = require('express')();
 
-app.get('/', (req, res) => {res.send(`<p>Hello World!</p><p>(since ${start})</p>`)});
+app.get('/', (req, res) => {res.send(`<p>Hello World! (v${version})</p><p>(since ${start})</p>`)});
 
 app.listen(port, () => {console.log(`listening on port ${port}`)});

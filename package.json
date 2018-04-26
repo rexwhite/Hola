@@ -1,7 +1,11 @@
 {
   "name": "hola",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple app for testing some kubernetes daemonset stuff.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexwhite/Hola.git"
+  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
